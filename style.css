@@ -1,0 +1,10 @@
+.side.right > .chat .message .avatar,
+.modal .top .avatar,
+.main > .content > .top .avatar,
+.main > .content > .history .avatar,
+.main > .content > .profile > .user .avatar img,
+.main > .content .bets .bet img,
+.main > .content .chances .user img,
+.main > .content .status-bar .slider .line img {
+  filter: blur(2px);
+}
