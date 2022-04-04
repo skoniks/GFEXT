@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "CSGF Extension",
   "description": "Неофициальное расширение для CSGF\nРазмывает аватарки пользователей на сайте",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "16": "/images/icon_16.png",
     "32": "/images/icon_32.png",
@@ -12,7 +12,13 @@
   "content_scripts": [
     {
       "matches": [
-        "*://csgf.pro/*"
+        "*://csgf.ru/*",
+        "*://csgf.fun/*",
+        "*://csgf.fan/*",
+        "*://csgf.pro/*",
+        "*://csgf.me/*",
+        "*://csgf.live/*",
+        "*://csgf.site/*"
       ],
       "css": [
         "style.css"
