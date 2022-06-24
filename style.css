@@ -5,6 +5,7 @@
 .main > .content > .profile > .user .avatar img,
 .main > .content .bets .bet img,
 .main > .content .chances .user img,
-.main > .content .status-bar .slider .line img {
+.main > .content .status-bar .slider .line img, 
+.modal-container > div.modal-table > div.modal-cell > div.modal > div.content > div.game > div.bet > a > img {
   filter: blur(2px);
 }
